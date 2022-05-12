@@ -47,20 +47,22 @@ void main(List<String> args) {
 
   //PALINDROME
 
-  int reminder, sum = 0, temp;
+  // int reminder, sum = 0, temp;
 
-  int num = 644;
+  // int num = 644;
 
-  temp = num;
-  while (num > 0) {
-    reminder = num % 10;
-    sum = (sum * 10) + reminder;
-    num = num ~/ 10;
-    
-  }
-  if (sum == temp) {
-      print('palindrome');
-    } else {
-      print('not palindrome');
-    }
+  // temp = num;
+  // while (num > 0) {
+  //   reminder = num % 10;
+  //   sum = (sum * 10) + reminder;
+  //   num = num ~/ 10;
+
+  // }
+  // if (sum == temp) {
+  //     print('palindrome');
+  //   } else {
+  //     print('not palindrome');
+  //   }
+
+ 
 }
