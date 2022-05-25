@@ -1,18 +1,20 @@
 class Parent {
-  void show() {
+  void show(int a) {
+    print(a);
     print('Inside parent class');
   }
 }
 
 class Son extends Parent {
   @override
-  void show() {
+  void show(int a) {
     print('Inside child class');
-    super.show();
+    print(a);
+    //super.show(10);
   }
 }
 
 void main(List<String> args) {
   Son obj = Son();
-  obj.show();
+  obj.show(10);
 }
