@@ -13,14 +13,14 @@
 //   math(20, 30);
 // }
 
-typedef  names(String name1,String name2);
+typedef  Names(String name1,String name2);
 
 combine(String n1,String n2) {
   print(' welcome $n1 $n2');
 }
 
 void main(List<String> args) {
-  names name;
+  Names name;
   name = combine;
   name('mohamed', 'nishad');
 }
